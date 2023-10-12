@@ -18,6 +18,6 @@ and token bucket algorithm<br><br>
 8.Write a program to implement random early detection (RED) 
 congestion control algorithm.<br><br>
 
-<h>PART-B: Simulation Experiments using NS2/ NS3/ NetSim or any other 
-suitable simulation software<h>
+**PART-B: Simulation Experiments using NS2/ NS3/ NetSim or any other 
+suitable simulation software**
 10 a. Implement three n
