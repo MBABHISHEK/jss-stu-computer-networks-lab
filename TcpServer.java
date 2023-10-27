@@ -3,7 +3,7 @@ import java.io.*;
 
 public class TcpServer {
     public static void main(String[] args) throws Exception {
-        ServerSocket sersock = new ServerSocket(4000);
+        ServerSocket sersock = new ServerSocket(3000);
         System.out.println("Server Connected, waiting for client");
         Socket sock = sersock.accept();
         System.out.println("Connection successful, waiting for filename");
