@@ -3,7 +3,7 @@ import java.io.*;
 
 public class TcpClient {
     public static void main(String[] args) throws Exception {
-        Socket sock = new Socket("127.0.0.1", 4000);
+        Socket sock = new Socket("127.0.0.1", 3000);
         System.out.println("Enter the file name: ");
         BufferedReader nameRead = new BufferedReader(new InputStreamReader(System.in));
         String fname = nameRead.readLine();
