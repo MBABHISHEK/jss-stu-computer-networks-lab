@@ -12,15 +12,17 @@ public class LeakyBucket {
         Scanner scanner = new Scanner(System.in);
 
         for (int i = 0; i < noOfQueries; i++) {
-            System.out.print("Input Packet Size: ");
+            System.out.print("ENTER THE NUMBER OF PACKETS ");
             inputPacketSize = scanner.nextInt();
 
             sizeLeft = bucketSize - storedBufferSize;
 
             if (inputPacketSize <= sizeLeft) {
                 storedBufferSize += inputPacketSize;
-            } else {
-                System.out.println("Packet Dropped");
+            }
+             else {
+                System.out.println("Number of Packets Dropped " + (storedBufferSize+inputPacketSize-bucketSize));
+                storedBufferSize=bucketSize;
             }
 
             System.out.println("Stored Buffer Size: " + storedBufferSize);
