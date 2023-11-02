@@ -16,7 +16,7 @@ class UdpServer
 		while (true){
 			message = in.nextLine();
 			buffer = message.getBytes();
-			datagramPacket = new DatagramPacket(buffer, buffer.length, clientAddress, 4000);
+			datagramPacket = new DatagramPacket(buffer, buffer.length, clientAddress, 3000);
 			datagramSocket.send(datagramPacket);
 
 			if (message.equalsIgnoreCase("exit")) {
