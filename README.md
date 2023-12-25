@@ -1,7 +1,9 @@
 # jss-stu-computer-netwroks-lab
-This repository contains the programs for the computer-networks-lab
+# This repository contains the programs for the computer-networks-lab
 
+<br>
 
+# PART-A: Implement the following using C++/Java/Python
 1.Write a program to sort frames using appropriate sorting techniques.<br><br>
 2. Write a program for error detecting code using CRC-CCITT (16- bits).<br><br>
 3.Write a program to find the shortest path between vertices using 
